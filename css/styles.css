@@ -1,0 +1,193 @@
+body
+{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1
+{
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    color: #0e8a8a;
+    line-height: 2;
+}
+
+h2
+{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2a8a8a;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h3
+{
+    color: #089499;
+}
+
+a
+{
+    color: #046f73;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:#09a9af ;
+}
+
+hr
+{
+    border:dotted #cedcdc 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 70px auto;
+}
+
+
+.top-cloud
+{
+    position:absolute;
+    right: 450px;
+}
+
+.bottom-cloud
+{
+    position:absolute;
+}
+
+.top-container
+{
+    background-color: rgb(86, 226, 226);
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-container
+{
+    background-color: #66BFBF;
+    margin-top: 40px;
+    padding: 50px 0 20px;
+}
+
+.paragraph4
+{
+    margin-bottom: 40px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-imgf
+{
+    width: 35%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-imgb
+{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+
+.middlediv
+{
+    padding: 20px;
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cd;
+    background-image: -webkit-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .copyright
+  {
+    color: #046f73;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+                
+
+
+
+/*
+The task: to make three cubes looking like that:
+.
+ .
+  .
+im the middle container -
+border-style: solid;
+border-width: 20px;
+margin-left: 260px; (width + padding left and right + border width lef and right)
+
+in the bottom container -
+border-style: solid;
+border-width: 10px;
+margin-left: 500px;
+*/
+
+/*
+The task: make the cubes from
+red
+blue      ->       blue yellow red 
+yellow
+
+all containers
+position: relativ;
+
+top 
+left: 400px;
+
+middle
+bottom: 200px;
+
+bottom
+bottom: 400px;
+left: 200px;
+
+with the absolute positioning:
+
+middle
+top: 200px;
+bottom: 200px;
+left: 200px;
+
+bottom
+top: 400px;
+bottom: 400px;
+left: 400px;
+
+*/
